@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import BackgroundGallery from './components/BackgroundGallery.tsx';
+import BackgroundGallery from './components/BackgroundGallery';
 import { useState } from 'react';
 
 export default function Home() {
@@ -13,6 +13,13 @@ export default function Home() {
     '/CommunityImages/MC-Charlie-Town-Everant.png',
     '/CommunityImages/MC-Sarah-body-Armogan.png',
     '/CommunityImages/Roblox-Arogan.png',
+    '/CommunityImages/FFXIV-wedding-volzzie.png',
+    '/CommunityImages/HFF-KnightinDistress-Everant.png',
+    '/CommunityImages/MC-Armogan-SapphireIce-Everant-Everant.png',
+    '/CommunityImages/MC-Bots-volzzie.png',
+    '/CommunityImages/MC-Church-Everant.png',
+    '/CommunityImages/MC-Kurtis-Everant.png',
+
   ];
   
   const imageCredits: string[] =[
@@ -20,6 +27,12 @@ export default function Home() {
     'Photo by community member Everant',
     'Photo by community member Armogan',
     'Photo by community member Armogan',
+    'Photo by community member Volzzie',
+    'Photo by community member Everant',
+    'Photo by community member Everant',
+    'Photo by community member Volzzie',
+    'Photo by community member Everant',
+    'Photo by community member Everant',
   ];
 
   const handleImageChange = (index: number) => {
