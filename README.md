@@ -1,4 +1,4 @@
-# Atmospace Website
+# Atmospace Website Repository
 
 This repository contains the source code for the official Atmospace website, accessible at [https://atmo.space](https://atmo.space).
 
