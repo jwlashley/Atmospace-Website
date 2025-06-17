@@ -14,7 +14,6 @@ declare module 'vue' {
     BackgroundParallax: typeof import('./components/BackgroundParallax.vue')['default']
     DataView: typeof import('./components/DataView.vue')['default']
     Discord: typeof import('./components/Discord.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Vortex: typeof import('./components/Vortex.vue')['default']
