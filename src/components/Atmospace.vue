@@ -45,34 +45,34 @@ import { ref } from "vue";
 
 const backgroundImages = [
   {
-    src: "src/assets/CommunityImages/FFXIV-wedding-volzzie.png",
+    src: "@/assets/CommunityImages/FFXIV-wedding-volzzie.png",
   },
   {
-    src: "src/assets/CommunityImages/HFF-KnightinDistress-Everant.png",
+    src: "@/assets/CommunityImages/HFF-KnightinDistress-Everant.png",
   },
   {
-    src: "src/assets/CommunityImages/MC-Charlie-Town-Everant.png",
+    src: "@/assets/CommunityImages/MC-Charlie-Town-Everant.png",
   },
   {
-    src: "src/assets/CommunityImages/MC-Armogan-SapphireIce-Everant-Everant copy.png",
+    src: "@/assets/CommunityImages/MC-Armogan-SapphireIce-Everant-Everant copy.png",
   },
   {
-    src: "src/assets/CommunityImages/MC-Bots-volzzie.png",
+    src: "@/assets/CommunityImages/MC-Bots-volzzie.png",
   },
   {
-    src: "src/assets/CommunityImages/MC-Charlie-Rats-Armogan.png",
+    src: "@/assets/CommunityImages/MC-Charlie-Rats-Armogan.png",
   },
   {
-    src: "src/assets/CommunityImages/MC-Church-Everant.png",
+    src: "@/assets/CommunityImages/MC-Church-Everant.png",
   },
   {
-    src: "src/assets/CommunityImages/MC-Kurtis-Everant.png",
+    src: "@/assets/CommunityImages/MC-Kurtis-Everant.png",
   },
   {
-    src: "src/assets/CommunityImages/MC-Sarah-body-Armogan.png",
+    src: "@/assets/CommunityImages/MC-Sarah-body-Armogan.png",
   },
   {
-    src: "src/assets/CommunityImages/Roblox-Arogan.png",
+    src: "@/assets/CommunityImages/Roblox-Arogan.png",
   },
 ];
 
