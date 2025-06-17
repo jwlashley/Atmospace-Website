@@ -84,7 +84,7 @@ setInterval(() => {
   selectWallpaper(backgroundImages[index].src);
 }, 8000);
 
-function selectWallpaper(index) {
+function selectWallpaper(index: string) {
   wallpaper.value = index;
 }
 </script>
