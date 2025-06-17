@@ -1,8 +1,9 @@
 <template>
   <v-container class="h-screen ma-0 pa-0" fluid style="position: relative">
     <transition mode="out-in" name="fade">
-      <v-parallax class="hero"
+      <v-parallax
         :key="wallpaper"
+        class="hero"
         :src="wallpaper"
         style="
           position: absolute;
@@ -24,13 +25,13 @@
       </h2>
       <v-img
         class="my-0 py-0 mx-auto"
-        style="width: 80%; display: block"
-        :max-width="600"
         :max-height="100"
+        :max-width="600"
         src="@/assets/Logo-Color-Banner.svg"
+        style="width: 80%; display: block"
       />
       <div class="d-flex flex-row justify-center mt-8">
-        <v-btn-group variant="outlined" class="ga-4 ga-md-16">
+        <v-btn-group class="ga-4 ga-md-16" variant="outlined">
           <v-btn>Discord</v-btn>
           <v-btn variant="outlined">Vortex</v-btn>
           <v-btn>Auramine</v-btn>
@@ -41,54 +42,44 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
+  import { ref } from 'vue'
 
-const backgroundImages = [
-  {
-    src: "@/assets/CommunityImages/FFXIV-wedding-volzzie.png",
-  },
-  {
-    src: "@/assets/CommunityImages/HFF-KnightinDistress-Everant.png",
-  },
-  {
-    src: "@/assets/CommunityImages/MC-Charlie-Town-Everant.png",
-  },
-  {
-    src: "@/assets/CommunityImages/MC-Armogan-SapphireIce-Everant-Everant copy.png",
-  },
-  {
-    src: "@/assets/CommunityImages/MC-Bots-volzzie.png",
-  },
-  {
-    src: "@/assets/CommunityImages/MC-Charlie-Rats-Armogan.png",
-  },
-  {
-    src: "@/assets/CommunityImages/MC-Church-Everant.png",
-  },
-  {
-    src: "@/assets/CommunityImages/MC-Kurtis-Everant.png",
-  },
-  {
-    src: "@/assets/CommunityImages/MC-Sarah-body-Armogan.png",
-  },
-  {
-    src: "@/assets/CommunityImages/Roblox-Arogan.png",
-  },
-];
+  import wallpaper1 from '@/assets/CommunityImages/FFXIV-wedding-volzzie.png'
+  import wallpaper2 from '@/assets/CommunityImages/HFF-KnightinDistress-Everant.png'
+  import wallpaper4 from '@/assets/CommunityImages/MC-Armogan-SapphireIce-Everant-Everant.png'
+  import wallpaper5 from '@/assets/CommunityImages/MC-Bots-volzzie.png'
+  import wallpaper6 from '@/assets/CommunityImages/MC-Charlie-Rats-Armogan.png'
+  import wallpaper3 from '@/assets/CommunityImages/MC-Charlie-Town-Everant.png'
+  import wallpaper7 from '@/assets/CommunityImages/MC-Church-Everant.png'
+  import wallpaper8 from '@/assets/CommunityImages/MC-Kurtis-Everant.png'
+  import wallpaper9 from '@/assets/CommunityImages/MC-Sarah-body-Armogan.png'
+  import wallpaper10 from '@/assets/CommunityImages/Roblox-Arogan.png'
 
-const wallpaper = ref("src/assets/CommunityImages/FFXIV-wedding-volzzie.png");
-let index = 0;
+  const backgroundImages = [
+    { src: wallpaper1 },
+    { src: wallpaper2 },
+    { src: wallpaper3 },
+    { src: wallpaper4 },
+    { src: wallpaper5 },
+    { src: wallpaper6 },
+    { src: wallpaper7 },
+    { src: wallpaper8 },
+    { src: wallpaper9 },
+    { src: wallpaper10 },
+  ]
 
-setInterval(() => {
-  index = (index + 1) % backgroundImages.length;
-  selectWallpaper(backgroundImages[index].src);
-}, 8000);
+  const wallpaper = ref(wallpaper1)
+  let index = 0
 
-function selectWallpaper(index: string) {
-  wallpaper.value = index;
-}
+  setInterval(() => {
+    index = (index + 1) % backgroundImages.length
+    selectWallpaper(backgroundImages[index].src)
+  }, 8000)
+
+  function selectWallpaper (newWallpaper: string) {
+    wallpaper.value = newWallpaper
+  }
 </script>
-
 
 <style>
 .fade-enter-active,
