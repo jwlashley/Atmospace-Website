@@ -11,7 +11,6 @@ declare module 'vue' {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     Atmospace: typeof import('./components/Atmospace.vue')['default']
     Auramine: typeof import('./components/Auramine.vue')['default']
-    BackgroundParallax: typeof import('./components/BackgroundParallax.vue')['default']
     DataView: typeof import('./components/DataView.vue')['default']
     Discord: typeof import('./components/Discord.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
