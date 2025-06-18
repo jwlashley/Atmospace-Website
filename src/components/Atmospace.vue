@@ -32,9 +32,9 @@
       />
       <div class="d-flex flex-row justify-center mt-8">
         <v-btn-group class="ga-4 ga-md-16" variant="outlined">
-          <v-btn>Discord</v-btn>
-          <v-btn variant="outlined">Vortex</v-btn>
-          <v-btn>Auramine</v-btn>
+          <v-btn href="https://discord.com/servers/atmospace-343961922103672834" target="_blank">Discord</v-btn>
+          <v-btn href="https://modrinth.com/mod/atmospace-vortex" target="_blank" variant="outlined">Vortex</v-btn>
+          <v-btn href="https://modrinth.com/modpack/auramine" target="_blank">Auramine</v-btn>
         </v-btn-group>
       </div>
     </div>
