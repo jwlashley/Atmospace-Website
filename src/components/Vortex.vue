@@ -7,8 +7,8 @@
     >
       <v-container class="d-flex justify-center align-center pt-16 w-100">
         <v-img
-        class="d-none d-sm-flex"
-        :max-width="200"
+          class="d-none d-sm-flex"
+          :max-width="200"
           src="/src/assets/vortexsvg.svg"
         />
         <h1 class="vtxTitle text-center align-center">Vortex</h1>
@@ -23,8 +23,8 @@
         <h2 class="text-overline">A mod for server administrators to get quantitative player-driven data about mod usage in their modded servers.</h2>
         <div class="d-flex flex-row justify-center mt-8">
           <v-btn-group class="ga-4 ga-md-16" variant="outlined">
-            <v-btn class="px-2 px-md-4">Modrinth</v-btn>
-            <v-btn class="px-2 px-md-4" variant="outlined">Github</v-btn>
+            <v-btn class="px-2 px-md-4" href="https://modrinth.com/mod/atmospace-vortex" target="_blank">Modrinth</v-btn>
+            <v-btn class="px-2 px-md-4" href="https://github.com/jwlashley/atmospace-vortex" target="_blank" variant="outlined">Github</v-btn>
             <v-btn class="px-2 px-md-4">Wiki</v-btn>
           </v-btn-group>
         </div>
